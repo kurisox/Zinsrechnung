@@ -7,7 +7,7 @@ namespace Zinsrechnung
         }
 
         public double calcStartkapital (Zinsobjekt zinsobjekt){
-            return zinsobjekt.endkapital / (1 + (zinsobjekt.zinssatz / 100));
+            return Math.Round(zinsobjekt.endkapital / (1 + (zinsobjekt.zinssatz / 100)));
         }
 
         public double calcZinssatz (Zinsobjekt zinsobjekt){
