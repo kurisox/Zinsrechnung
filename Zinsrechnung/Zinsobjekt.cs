@@ -9,7 +9,7 @@ namespace Zinsrechnung
 
         public override string ToString()
         {
-            return "Kapital: " + kapitlal + "€, Zinssatz: " + zinssatz + "%, Laufzeit: " + jahre + " Jahre, Endkapital: " + endkapital +"€";
+            return "Kapital: " + kapitlal + "€ | Zinssatz: " + zinssatz + "% | Laufzeit: " + jahre + " Jahre | Endkapital: " + endkapital +"€"; 
         }
     }
 }
